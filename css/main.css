@@ -1,3 +1,34 @@
 body {
 	margin: 0;
 }
+
+/* ------------ MASTHEAD ------------------- */
+h1 {
+	margin: 0;
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.header-div {
+	display: inline-block;
+}
+
+.logo-svg {
+	width: 65px;
+	padding-top: 25px;
+}
+
+.buy-button {
+	display: inline-block;
+	margin: 0;
+	padding-left: 15px;
+}
+
+/* --------------- NAV ---------------------- */
+.navigtion-a {
+	text-decoration: none;
+}
+
+li {
+	text-decoration: none;
+}
