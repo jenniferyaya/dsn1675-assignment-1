@@ -11,6 +11,10 @@ p {
 	padding-left: 1em;
 }
 
+img {
+	width: 100%;
+}
+
 /* ------------ MASTHEAD ------------------- */
 h1 {
 	margin: 0;
