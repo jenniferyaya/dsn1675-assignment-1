@@ -1,15 +1,27 @@
 body {
 	margin: 0;
+	min-width: 320px;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	padding-left: 1em;
 }
 
 /* ------------ MASTHEAD ------------------- */
 h1 {
 	margin: 0;
 	display: inline-block;
-	padding-left: 15px;
+	padding-left: .15em;
+	padding-top: .15em;
+	font-size: 2.5rem;
+	color: #444444;
 }
 
-.header-div {
+.masthead-div {
 	display: inline-block;
 }
 
@@ -21,14 +33,104 @@ h1 {
 .buy-button {
 	display: inline-block;
 	margin: 0;
-	padding-left: 15px;
+	margin-left: 15px;
+	padding-right: .50em;
+	padding-left: .50em;
+	background-color: #444;
+	border-radius: 10px;
+	text-align: center;
 }
+
+.buy-a {
+	color: #fff;
+}
+.buy-a:hover {
+	color: purple;;
+}
+
 
 /* --------------- NAV ---------------------- */
-.navigtion-a {
-	text-decoration: none;
+.nav-ol {
+	list-style-type: none;
+	padding-left: 2em;
 }
 
-li {
-	text-decoration: none;
+.nav-li {
+	display: inline-block;
+	padding-right: 2.5em;
+}
+
+.nav-ol:hover {
+	color: red
+}
+
+
+
+/* --------------- BANNER IMAGE ---------------------- */
+.banner-div {
+	position: relative;
+}
+
+.hero-img {
+
+}
+
+.hero-caption {
+	position: absolute;
+}
+
+
+
+
+/* --------------- SEVEN WONDERS ---------------------- */
+h2, h3 {
+padding-left: 1em;
+}
+
+dl {
+	padding-left: 1em;
+}
+
+
+
+/* --------------- TICKETS ---------------------- */
+.ticket-links {
+	background-color: red;
+	padding-left: 2em;
+}
+
+
+/* --------------- MEMBERSHIPS ---------------------- */
+
+
+
+
+
+
+
+
+/* --------------- CALENDAR ---------------------- */
+h3 {
+	margin: 0;
+}
+.calendar-ol {
+	padding-left: 1em;
+	margin: 0.25em 0.25em;
+	list-style-type: none;
+}
+
+.calendar-li {
+	background-color: red;
+	list-style-type: none;
+}
+
+/* --------------- FOOTER ---------------------- */
+.footer-div {
+	background-color: lightgrey;
+	margin-top: 1em;
+	padding-top: 0.50em;
+}
+
+.footer-p {
+	padding-left: .65em;
 }
