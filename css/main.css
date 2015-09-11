@@ -1,3 +1,11 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
 body {
 	margin: 0;
 	min-width: 320px;
@@ -59,12 +67,13 @@ h1 {
 }
 
 .nav-li {
-	display: inline-block;
-	padding-right: 2.5em;
+	display: inline;
+	padding-right: 2em;
 }
 
+
 .nav-ol:hover {
-	color: red
+	color: pink;
 }
 
 
@@ -97,16 +106,43 @@ h1 {
 }
 
 
-
-
 /* --------------- SEVEN WONDERS ---------------------- */
-dl {
-	padding-left: 1em;
+h2 {
+	color: red;
+	text-align: center;
 }
 
 .h2-imgs {
-	padding-right: 1em;
+	padding-right: .5em;
+	padding-left: 1.50em;
 	width: 90%;
+}
+
+dl {
+	display: inline;
+}
+
+.box-1 {
+	background-color: red;
+	float: left;
+	padding-bottom: 3em;
+	width: 33.3%;
+}
+
+.box-2 {
+	background-color: pink;
+	float: right;
+	padding-bottom: 3em;
+}
+
+.box-3 {
+	background-color: blue;
+	float: right;
+	padding-bottom: 3em;
+}
+
+.href {
+	clear: both;
 }
 
 /* --------------- TICKETS ---------------------- */
@@ -128,7 +164,9 @@ dl {
 /* --------------- CALENDAR ---------------------- */
 h3 {
 	margin: 0;
+	padding-left: 1em;
 }
+
 .calendar-ol {
 	padding-left: 1em;
 	margin: 0.25em 0.25em;
