@@ -56,7 +56,6 @@ h1 {
 /* --------------- NAV ---------------------- */
 .nav-ol {
 	list-style-type: none;
-	padding-left: 2em;
 }
 
 .nav-li {
@@ -75,27 +74,40 @@ h1 {
 	position: relative;
 }
 
-.hero-img {
-
+.banner-h2{
+	margin: 0;
+	padding-left: 1em;
+	color: #fff;
+	text-align: center;
 }
 
-.hero-caption {
+.banner-p {
+	color: #fff;
+	margin: 0;
+	text-align: center;
+}
+
+.hero-content {
 	position: absolute;
+	bottom: 90px;
+	margin: 0;
+	width: 100%;
+	bottom: 0;
+	padding-bottom: 6em;
 }
 
 
 
 
 /* --------------- SEVEN WONDERS ---------------------- */
-h2, h3 {
-padding-left: 1em;
-}
-
 dl {
 	padding-left: 1em;
 }
 
-
+.h2-imgs {
+	padding-right: 1em;
+	width: 90%;
+}
 
 /* --------------- TICKETS ---------------------- */
 .ticket-links {
