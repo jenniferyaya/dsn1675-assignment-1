@@ -9,7 +9,7 @@ html {
 body {
 	margin: 0;
 	min-width: 320px;
-		background-color: #ede8e4;
+	background-color: #ede8e4;
 }
 
 a {
@@ -152,7 +152,7 @@ dt {
 
 .div-1 {
 	float: left;
-	width: 33.3%;
+	width: 33.33%;
 	margin-bottom: 1.25em;
 }
 
