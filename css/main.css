@@ -9,6 +9,7 @@ html {
 body {
 	margin: 0;
 	min-width: 320px;
+		background-color: #ede8e4;
 }
 
 a {
@@ -55,10 +56,11 @@ h1 {
 }
 
 .buy-a {
-	color: #fff;
+	color: #ede8e4;
+	font-weight: bold;
 }
 .buy-a:hover {
-	color: purple;;
+	color: #000;
 }
 
 
@@ -66,7 +68,7 @@ h1 {
 .nav-ol {
 	list-style-type: none;
 	text-align: center;
-	background-color: red;
+	background-color: #a16aa8;
 	overflow: hidden;
 	font-weight: bold;
 }
@@ -77,14 +79,14 @@ h1 {
 }
 
 nav a:hover {
-	color: grey;
+	color: #000;
 }
 
 nav a {
 	display: block;
 	padding: .4em;
 	text-decoration: none;
-	color: pink;
+	color: #ede8e4;
 }
 
 
@@ -97,14 +99,16 @@ nav a {
 .banner-h2{
 	margin: 0;
 	padding-left: 1em;
-	color: #fff;
+	color: #ede8e4;
 	text-align: center;
+	font-size: 1.5rem;
 }
 
 .banner-p {
-	color: #fff;
+	color: #ede8e4;
 	margin: 0;
 	text-align: center;
+	font-weight: bold;
 }
 
 .hero-content {
@@ -119,53 +123,56 @@ nav a {
 
 /* --------------- SEVEN WONDERS ---------------------- */
 h2 {
-	color: red;
+	color: #a16aa8;
+	font-weight: bold;
 	text-align: center;
 	margin: 0;
 }
 
 .h2-imgs {
-	width: 90%;
 	margin: 1em;
-	padding-top: 1em;
+	width: 95%;
 }
 
 dd {
 	text-decoration: none;
 	text-align: left;
 	margin: 0;
-	padding-left: .93em;
+	padding-left: 2em;
 }
 
 dt {
-	padding-left: .93em;
+	padding-left: 2em;
+	font-weight: bold;
 }
 
 .div-1 {
 	float: left;
 	width: 33.3%;
+	margin-bottom: 1.25em;
 }
 
 .div-2 {
 	float: left;
 	width: 33.33%;
+	margin-bottom: 1.25em;
 }
 
 .div-3 {
 	float: right;
 	width: 33.33%;
+	margin-bottom: 1.25em;
 }
 
 .more-btn {
-	background-color: blue;
 	overflow: hidden;
 	margin-left: 8em;
-	padding-right: 2.5em;
-	padding-left: 2.5em;
-	margin-top: .5em;
+	padding: .25em 2.5em .25em 2.5em;
+	border-radius: 20px;
+	color: #000;
+	border: solid #a16aa8;
+	font-weight: bold;
 }
-
-
 
 
 /* --------------- TICKETS ---------------------- */
@@ -175,28 +182,36 @@ dt {
 }
 .h2-2 {
 	font-weight: bold;
-	background-color: red;
-	color: #000;
+	background-color: #a16aa8;
+	color: #ede8e4;
 	margin-top: 2.5em;
+	padding: .25em;
 }
 
 .links {
-	background-color: blue;
-	border: solid #000;
+	background-color: #ede8e4;
+	border: solid #a16aa8;
 	text-align: center;
 	margin-left: 8em;
+	padding: .25em;
+	font-weight: bold;
+	color: #000;
 }
 
 .tix-p {
 	text-align: center;
 	margin-bottom: 2em;
+	font-size: 1.1rem;
 }
 
 .links-2 {
-	background-color: blue;
-	border: solid #000;
+	background-color: #ede8e4;
+	border: solid #a16aa8;
 	text-align: center;
 	margin-left: 8em;
+	padding: .25em;
+	color: #000;
+	font-weight: bold;
 }
 
 .movie-link {
@@ -213,19 +228,26 @@ dt {
 
 .atl-p {
 	position: absolute;
-	bottom: 150px;
-	color: #fff;
-	width: 50%;
-	right: 135px;
+	bottom: 100px;
+	color: #000;
+	font-weight: bold;
+	font-size: 1.25rem;
+	width: 60%;
+	right: 75px;
 	text-align: center;
+	background-color: rgba(237, 232, 228, .5);
 }
 
 .atl-link {
 	position: absolute;
-	bottom: 80px;
-	right: 230px;
-	color: #fff;
+	bottom: 40px;
+	right: 210px;
+	color: #000;
 	font-weight: bold;
+	background-color: rgba(237, 232, 228, .75);
+	padding: .5em;
+	border: solid #a16aa8;
+	border-radius: 20px;
 }
 
 
@@ -234,20 +256,18 @@ dt {
 /* --------------- CALENDAR ---------------------- */
 .h2-3 {
 	font-weight: bold;
-	background-color: red;
+	background-color: #a16aa8;
 	padding-bottom: .5em;
-	color: #000;
+	color: #ede8e4;
 }
 
 h3 {
 	margin: 0;
-	padding-left: 1em;
-	padding-top: .5em;
-	background-color: red;
+	margin-left: 1em;
+	margin-top: .5em;
 }
 
 .calendar-ol {
-	padding-left: 1em;
 	margin: 0.25em 0.25em;
 	list-style-type: none;
 	padding-left: 1em;
@@ -255,13 +275,13 @@ h3 {
 
 
 .calendar-ul {
-	background-color: pink;
 	list-style-type: none;
 }
 
+
 /* --------------- FOOTER ---------------------- */
 .footer-div {
-	background-color: lightgrey;
+	background-color: rgba(161, 106, 168, .15);
 	margin-top: 1em;
 	padding-top: 0.50em;
 	padding-bottom: 1em;
@@ -271,11 +291,37 @@ h3 {
 	padding-left: 2em;
 }
 
+.phonep {
+	padding: 0;
+}
+
+.footer-hrs {
+	padding-left: 1em;
+	background-color: #ede8e4;
+	padding: .25em;
+	border: solid #a16aa8;
+	color: #000;
+	font-weight: bold;
+}
+
+.footer-hrs:hover {
+	color: #a16aa8;
+}
+
 .email {
 	text-transform: italic;
 }
 
+.footer-ad {
+	padding: 0;
+}
+
 .footer-link {
 	display: block;
-	padding-left: 2em;
+	padding: 0;
+	color: #000;
+}
+
+.footer-link:hover {
+	color: #a16aa8;
 }
