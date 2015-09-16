@@ -17,7 +17,7 @@ a {
 }
 
 p {
-	padding-left: 1em;
+	padding-left: .25em;
 }
 
 img {
@@ -58,7 +58,6 @@ h1 {
 .buy-a {
 	color: #ede8e4;
 	font-weight: bold;
-	font-size: 1.15rem;
 }
 .buy-a:hover {
 	color: #000;
@@ -68,10 +67,10 @@ h1 {
 /* --------------- NAV ---------------------- */
 .nav-ol {
 	list-style-type: none;
-	text-align: center;
 	background-color: #a16aa8;
 	overflow: hidden;
 	font-weight: bold;
+	padding: 0;
 }
 
 .nav-li {
@@ -85,7 +84,7 @@ nav a:hover {
 }
 
 nav a {
-	display: block;
+	display: inline-block;
 	padding: .4em;
 	text-decoration: none;
 	color: #ede8e4;
@@ -116,11 +115,11 @@ nav a {
 
 .hero-content {
 	position: absolute;
-	bottom: 90px;
+	bottom: 0px;
 	margin: 0;
 	width: 100%;
 	bottom: 0;
-	padding-bottom: 6em;
+	padding-bottom: 1em;
 }
 
 
@@ -128,25 +127,23 @@ nav a {
 h2 {
 	color: #a16aa8;
 	font-weight: bold;
-	text-align: center;
 	margin: 0;
-	font-weight: 2rem;
+	padding-left: .5em;
 }
 
 .h2-imgs {
-	margin: 1em;
-	width: 95%;
+	margin-top: .5em;
 }
 
 dd {
 	text-decoration: none;
 	text-align: left;
 	margin: 0;
-	padding-left: 2em;
+	padding-left: 1em;
 }
 
 dt {
-	padding-left: 2em;
+	padding-left: 1em;
 	font-weight: bold;
 }
 
@@ -169,21 +166,20 @@ dt {
 }
 
 .more-btn {
-	overflow: hidden;
-	margin-left: 8em;
-	padding: .25em 2.5em .25em 2.5em;
-	border-radius: 20px;
+	margin-left: .95em;
+	padding: .20em;
 	color: #000;
 	border: solid #a16aa8;
 	font-weight: bold;
+	float: left;
 }
 
+dl {
+	margin-bottom: 1em;
+	padding-bottom: 6em;
+}
 
 /* --------------- TICKETS ---------------------- */
-.atl-img {
-	margin: -1em 0 0 2.5em;
-	width: 95%;
-}
 .h2-2 {
 	font-weight: bold;
 	background-color: #a16aa8;
@@ -192,27 +188,34 @@ dt {
 	padding: .25em;
 }
 
+
+figure {
+	padding: 0;
+	margin: 0;
+}
+
 .links {
 	background-color: #ede8e4;
 	border: solid #a16aa8;
 	text-align: center;
-	margin-left: 8em;
+	margin-left: .5em;
 	padding: .25em;
 	font-weight: bold;
 	color: #000;
 }
 
 .tix-p {
-	text-align: center;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	font-size: 1.1rem;
+	width: 90%;
+	margin-left: .25em;
 }
 
 .links-2 {
 	background-color: #ede8e4;
 	border: solid #a16aa8;
 	text-align: center;
-	margin-left: 8em;
+	margin-left: .5em;
 	padding: .25em;
 	color: #000;
 	font-weight: bold;
@@ -232,26 +235,23 @@ dt {
 
 .atl-p {
 	position: absolute;
-	bottom: 100px;
+	bottom: 50px;
 	color: #000;
 	font-weight: bold;
 	font-size: 1.25rem;
-	width: 60%;
-	right: 75px;
-	text-align: center;
+	width: 95%;
+	right: 15px;
 	background-color: rgba(237, 232, 228, .5);
 }
 
 .atl-link {
 	position: absolute;
-	bottom: 40px;
-	right: 210px;
+	bottom: 10px;
+	right: 100px;
 	color: #000;
 	font-weight: bold;
-	background-color: rgba(237, 232, 228, .75);
-	padding: .5em;
-	border: solid #a16aa8;
-	border-radius: 20px;
+	background-color: rgba(237, 232, 228, .95);
+	padding: .05em;
 }
 
 
@@ -266,20 +266,20 @@ dt {
 }
 
 h3 {
-	margin: 0;
-	margin-left: 1em;
-	margin-top: .5em;
+	margin: .5em 0 0 .5em;
 }
 
 .calendar-ol {
 	margin: 0.25em 0.25em;
 	list-style-type: none;
-	padding-left: 1em;
+	padding-left: .5em;
 }
-
 
 .calendar-ul {
 	list-style-type: none;
+	padding: 0;
+	margin-left: .5em;
+	width: 90%;
 }
 
 
@@ -324,4 +324,22 @@ h3 {
 
 .footer-link:hover {
 	color: #a16aa8;
+}
+
+/* --------------- MEDIA QUERIES ---------------------- */
+@media only screen and (min-width: 20em) {
+
+	.masthead-div {
+		background-color: blue;
+	}
+
+.masthead {
+	background-color: pink;
+}
+
+.nav-ol {
+}
+
+
+
 }
