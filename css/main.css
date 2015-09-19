@@ -103,7 +103,7 @@ nav a {
 	padding-left: 1em;
 	color: #ede8e4;
 	text-align: center;
-	font-size: 1.65rem;
+	font-size: 1rem;
 }
 
 .banner-p {
@@ -207,7 +207,7 @@ figure {
 
 .tix-p {
 	margin-bottom: 1em;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	width: 90%;
 	margin-left: .25em;
 }
@@ -239,7 +239,7 @@ figure {
 	bottom: 50px;
 	color: #000;
 	font-weight: bold;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	width: 95%;
 	right: 15px;
 	background-color: rgba(237, 232, 228, .5);
@@ -328,25 +328,147 @@ h3 {
 }
 
 /* --------------- MEDIA QUERIES ---------------------- */
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 38em) {
 
 	.buy-button {
 		text-align: center;
-		float: right;
-		clear: both;
 		width: 10%;
-		display: inline-block;
+		float: right;
+		padding: .25em;
+		margin: 0 auto;
+		clear: both;
 	}
 
-h1 {
-	display: inline-block;
+	h1 {
+		display: inline-block;
+		font-size: 3rem;
+		padding: 0;
 }
 
-.logo-svg {
-	margin: 0 auto;
-	padding-top: 18px;
+	.logo-svg {
+		margin: 0 auto;
+		padding-top: 1.1em;
 }
 
-h2 {
-	text-align: center;
+	.banner-h2 {
+		font-size: 1.75rem;
+	}
+
+	.hero-content {
+		top: 55px;
+	}
+
+
+	h2 {
+		text-align: center;
+}
+
+	.more-btn {
+		margin-left: 10.5em;
+	}
+
+
+	.links, .links-2 {
+		margin-left: 8em;
+	}
+
+	.atl-p{
+		left: 140px;
+		top: 100px;
+		bottom: 130px;
+		font-size: 1.5em;
+		width: 60%;
+		text-align: center;
+		padding: 0;
+	}
+
+	.atl-link {
+		left: 260px;
+		padding: .5em;
+		right: 240px;
+		width: 20%;
+		bottom: 80px;
+	}
+
+
+}
+
+
+@media only screen and (min-width: 60em) {
+
+.masthead-div {
+	display: inline;
+	padding: 2em;
+}
+
+	.buy-button {
+		padding: 0;
+		padding-bottom: 1.75em;
+}
+
+	.banner-h2 {
+		font-size: 2em;
+	}
+
+.banner-p {
+	font-size: 1.5em;
+}
+	.hero-content {
+
+	}
+
+
+	h2 {
+		text-align: center;
+		font-size: 1.5rem;
+		padding: 1em;
+}
+
+	.h2-imgs {
+		width: 95%;
+		margin-left: 2em;
+		margin-top: 1em;
+		padding: 2em;
+	}
+
+	.more-btn {
+		margin-left: 20.5em;
+		padding: 1em;
+		margin-bottom: 1.75em;
+	}
+
+
+	.links, .links-2 {
+		margin-left: 15em;
+	}
+
+	.atl-p{
+		left: 180px;
+		top: 130px;
+		bottom: 270px;
+		text-align: center;
+		padding: .5em;
+	}
+
+	.atl-link {
+		left: 390px;
+		padding: .5em;
+		right: 240px;
+		width: 13%;
+		bottom: 190px;
+		padding: .55em;
+	}
+
+	.h3-ol, .calendar-ul, h3 {
+		text-align: center;
+	}
+
+}
+
+
+@media only screen and (min-width: 90em) {
+
+
+
+
 }
