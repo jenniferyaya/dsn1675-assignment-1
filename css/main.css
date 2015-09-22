@@ -47,24 +47,6 @@ h1 {
 	padding-top: 25px;
 }
 
-.buy-button {
-	float: left;
-	margin: 0;
-	margin-left: .5em;
-	padding-right: .50em;
-	padding-left: .50em;
-	background-color: #a16aa8;
-}
-
-.buy-a {
-	color: #ede8e4;
-	font-weight: bold;
-}
-.buy-a:hover {
-	color: #000;
-}
-
-
 /* --------------- NAV ---------------------- */
 .nav-ol {
 	list-style-type: none;
@@ -330,18 +312,9 @@ h3 {
 /* --------------- MEDIA QUERIES ---------------------- */
 @media only screen and (min-width: 38em) {
 
-	.buy-button {
-		text-align: center;
-		width: 10%;
-		float: right;
-		padding: .25em;
-		margin: 0 auto;
-		clear: both;
-	}
-
-	h1 {
+	.title {
 		display: inline-block;
-		font-size: 3rem;
+		font-size: 4rem;
 		padding: 0;
 }
 
@@ -392,6 +365,23 @@ h3 {
 
 
 }
+
+@media only screen and (min-width: 50em) {
+
+	.masthead-div {
+		background-color: #ded0d2;
+}
+
+	.title {
+		text-align: center;
+		color: red;
+	}
+}
+
+
+
+
+
 
 
 @media only screen and (min-width: 60em) {
@@ -468,7 +458,12 @@ h3 {
 
 @media only screen and (min-width: 90em) {
 
-
+	.h2-imgs {
+		float: left;
+		margin: 0;
+		width: 50%;
+		padding: 0;
+	}
 
 
 }
